@@ -1,0 +1,10 @@
+@import "colores";
+@import "_estructuraGeneral";
+@import "estilosAgregados";
+@import "operaciones";
+@import "responsive";
+
+
+.container-fluid{
+    background-image: $gradiente;
+}

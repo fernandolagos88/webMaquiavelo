@@ -1,0 +1,663 @@
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 62.5%;
+  background-color: #F9F9F9;
+  height: 100vh;
+  border-radius: 0.1rem; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 0.1rem #343434;
+  border-style: none;
+  border: #343434 0.1rem solid;
+  justify-content: space-around;
+  width: 100%; }
+  header h1 {
+    font-size: 2rem;
+    color: #343434;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: solid;
+    margin-bottom: 0rem;
+    display: inline-block; }
+  header h2 {
+    font-size: 1rem;
+    color: #343434;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-style: italic;
+    margin-top: 0.5rem;
+    display: inline-block; }
+
+/* Generalidades section */
+section {
+  align-content: center; }
+  section h1 {
+    font-size: 3rem;
+    color: #343434;
+    margin-left: 1rem;
+    align-content: center; }
+  section ol {
+    list-style-type: none; }
+  section p {
+    color: #343434;
+    font-size: 2rem;
+    word-spacing: 0.1rem;
+    margin: 1rem; }
+  section div {
+    margin: 1rem; }
+    section div img {
+      width: 20rem;
+      height: 25rem; }
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-size: 1.7rem;
+  border: 0.1rem #343434;
+  border-radius: 0.5rem;
+  justify-content: space-between; }
+
+.nav__a__img {
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0; }
+
+.nav__ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.nav__ul__li {
+  margin: 1rem 0.5rem 0.1rem;
+  padding: 0.5rem 0.5rem 0rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 0.1rem 0.1rem;
+  transition: All 1s ease;
+  -webkit-transition: All 1s ease;
+  -moz-transition: All 1s ease;
+  -o-transition: All 1s ease;
+  transform: scale(1) skew(1deg);
+  -webkit-transform: scale(1) skew(1deg);
+  -moz-transform: scale(1) skew(1deg);
+  -o-transform: scale(1) skew(1deg);
+  -ms-transform: scale(1) skew(1deg); }
+
+.nav__ul__li {
+  transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px); }
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5rem;
+  color: black;
+  text-decoration: none; }
+
+.section__div {
+  font-style: italic; }
+
+.section__div_div {
+  width: 50%; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.footer__div__ul__li--contacto {
+  list-style-type: none;
+  font-size: 1.5rem; }
+
+.footer__div__ul__li--redes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 12rem 0.25rem;
+  justify-content: space-evenly; }
+
+.section__div__form {
+  padding: 1rem 10rem; }
+
+.section__div__form__label {
+  font-size: 3rem; }
+
+.section__div__form__input {
+  font-size: 2rem;
+  background-color: #9D8F8F;
+  color: #625757;
+  font-style: oblique;
+  margin-left: 10px;
+  cursor: hand;
+  cursor: pointer;
+  border: 0px none; }
+
+.IconosRedes {
+  width: 2.5rem;
+  height: 2.5rem; }
+
+.fuenteSubtitulos {
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+  color: #343434; }
+
+/* Pagina quienes somos */
+.qsh1 {
+  justify-content: center;
+  padding: 2rem; }
+
+.qsh1 h1 {
+  font-size: 5rem; }
+
+.sectionQuienesSomos {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-grow: initial;
+  border: 0.1rem #343434 solid;
+  /* border-radius: 1rem; */
+  align-content: center; }
+
+.quienesSomosImagenes {
+  width: 50%; }
+
+.quienesSomosParrafo {
+  width: 50%; }
+
+.quienesSomosImagenes img {
+  width: 80%;
+  height: 80%;
+  border: 0.1rem #343434 solid; }
+
+/* pagina veni a conocernos */
+.container-conocenos {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; }
+
+.item-conocenos {
+  width: 100%;
+  padding: 1rem 0 2.5rem; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border: #343434 solid 0.1rem; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+/* pagina nuestros alfajores */
+.flex-nuestros-alfajores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.item-alfajores {
+  width: 100%;
+  align-self: center; }
+
+.item-alfajores2 {
+  height: 75rem;
+  width: 75rem;
+  padding: 3rem;
+  padding-right: 3rem;
+  background-color: #6d6161;
+  border: #343434 solid 0.1rem;
+  border-radius: 1rem; }
+
+.imagenDeCarousel {
+  height: 55rem;
+  border: #343434 solid 0.1rem;
+  /* border-radius: 1rem; */ }
+
+.nombreAlfajor {
+  font-size: 3rem;
+  padding: 1rem; }
+
+.ingredientesAlfajor {
+  font-size: 2rem;
+  padding-bottom: 2rem; }
+
+/* Estilos header */
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 0.1rem #343434;
+  border-style: none;
+  /* border-radius: 0.5rem; */
+  justify-content: space-around;
+  width: 100%; }
+
+header h1 {
+  font-size: 2rem;
+  color: #343434;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: solid;
+  margin-bottom: 0rem;
+  display: inline-block; }
+
+header h2 {
+  font-size: 1rem;
+  color: #343434;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: solid;
+  font-style: italic;
+  margin-top: 0.5rem;
+  display: inline-block; }
+
+/* Estilos nav */
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* background-color: #9D8F8F;        */
+  font-size: 1.7rem;
+  border: 0.1rem #343434;
+  border-radius: 0.5rem;
+  /* border-style: solid; */
+  justify-content: space-between; }
+
+.logoNav {
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+  margin: 0; }
+
+.tablaNav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.itemNav {
+  margin: 1rem 0.5rem 0.1rem;
+  padding: 0.5rem 0.5rem 0rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 0.1rem 0.1rem;
+  transition: All 1s ease;
+  -webkit-transition: All 1s ease;
+  -moz-transition: All 1s ease;
+  -o-transition: All 1s ease;
+  transform: scale(1) skew(1deg);
+  -webkit-transform: scale(1) skew(1deg);
+  -moz-transform: scale(1) skew(1deg);
+  -o-transform: scale(1) skew(1deg);
+  -ms-transform: scale(1) skew(1deg); }
+
+.itemNav:hover {
+  transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1.309) skew(1deg) translate(0px); }
+
+nav ul li a {
+  display: inline-block;
+  padding: 0.5rem;
+  color: black;
+  text-decoration: none; }
+
+.navAlfajores {
+  position: absolute;
+  display: none; }
+
+.itemAlfajores {
+  display: block;
+  background-color: #9D8F8F;
+  font-size: 1.7rem;
+  border: 0.05rem #343434;
+  border-radius: 0.5rem;
+  border-style: solid;
+  display: none; }
+
+.itemNav:hover .navAlfajores {
+  display: block;
+  position: relative; }
+
+/* Estilos footer */
+footer {
+  /* background-color: #9D8F8F; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: #343434;
+  /* border-radius: 0.5rem; */
+  width: 100%; }
+
+.listaContacto {
+  list-style-type: none;
+  font-size: 1.5rem; }
+
+.listaRedes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 12rem 0.25rem;
+  justify-content: space-evenly; }
+
+.IconosRedes {
+  width: 2.5rem;
+  height: 2.5rem; }
+
+/* Estilos section */
+.sectionIndex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: initial;
+  justify-content: space-around;
+  /* border: 0.1rem #343434 solid; */
+  border-radius: 1rem;
+  align-content: center; }
+
+.parrafoVideo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; }
+
+section div {
+  margin: 1rem; }
+
+/* Generalidades section */
+section {
+  /* border: 0.1rem #343434 solid; */
+  /* border-radius: 1rem; */
+  align-content: center; }
+
+section h1 {
+  font-size: 3rem;
+  color: #343434;
+  margin-left: 1rem;
+  align-content: center; }
+
+section div img {
+  width: 20rem;
+  height: 25rem; }
+
+section ol {
+  list-style-type: none; }
+
+p {
+  color: #343434;
+  font-size: 2rem;
+  word-spacing: 0.1rem;
+  margin: 1rem; }
+
+.imgIndex {
+  border: #343434 0.1rem solid;
+  border-radius: 1rem; }
+
+.section__div {
+  font-style: italic; }
+
+.section__div_div {
+  width: 50%; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.footer__div__ul__li--contacto {
+  list-style-type: none;
+  font-size: 1.5rem; }
+
+.footer__div__ul__li--redes {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 12rem 0.25rem;
+  justify-content: space-evenly; }
+
+.section__div__form {
+  padding: 2rem 0 2rem 10rem; }
+
+.section__div__form__label {
+  font-size: 3rem; }
+
+.section__div__form__input {
+  font-size: 3rem;
+  background-color: #9D8F8F;
+  color: #625757;
+  font-style: oblique;
+  margin-left: 10px;
+  cursor: hand;
+  cursor: pointer;
+  border: 0px none; }
+
+#mensaje {
+  width: 33.33333%; }
+
+.h1Vende {
+  font-size: 3rem; }
+
+.h2Vende {
+  font-size: 2rem; }
+
+/* Estilos Mobile   */
+@media only screen and (max-width: 400px) {
+  header {
+    border-radius: none; }
+  section {
+    border-radius: none; }
+  footer {
+    border-radius: none; }
+  .sectionIndex {
+    flex-wrap: wrap; }
+  .section div {
+    margin: 1rem;
+    width: 100%; }
+  footer {
+    flex-wrap: wrap; }
+  .listaContacto {
+    list-style-type: none;
+    font-size: 1.5rem; }
+  .listaRedes {
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .IconosRedes {
+    width: 3.5rem;
+    height: 3.5rem; }
+  .aDesk {
+    display: none; }
+  .imgIndex {
+    width: 100%;
+    align-self: center; }
+  .nuestraFamilia {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .nuestraHistoria {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .nuestraMision {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .quienesSomosParrafo {
+    width: 100%; }
+  .quienesSomosImagenes {
+    width: 100%;
+    padding: 2rem; }
+  .container {
+    padding: 0;
+    margin: 0; }
+  .container div {
+    border-radius: none; }
+  .item-alfajores2 {
+    height: 55rem; }
+  .imagenDeCarousel {
+    height: 95%;
+    border: #343434 solid 0.1rem;
+    /* border-radius: 1rem; */ }
+  .flex-item-parrafo {
+    align-items: center;
+    justify-self: center;
+    margin: 0; } }
+
+/* Estilos Tablets */
+@media only screen and (min-width: 401px) and (max-width: 992px) {
+  header {
+    border-radius: none; }
+  section {
+    border-radius: none; }
+  footer {
+    border-radius: none; }
+  .sectionIndex {
+    flex-wrap: wrap; }
+  .section div {
+    margin: 1rem;
+    width: 100%; }
+  footer {
+    flex-wrap: wrap; }
+  .listaContacto {
+    list-style-type: none;
+    font-size: 1.5rem; }
+  .listaRedes {
+    flex-direction: column;
+    flex-wrap: nowrap; }
+  .IconosRedes {
+    width: 3.5rem;
+    height: 3.5rem; }
+  .aDesk {
+    display: none; }
+  .flex-item-parrafo {
+    width: 100%;
+    align-items: center; }
+  .imgIndex {
+    width: 75%; }
+  .nuestraFamilia {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .nuestraHistoria {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .nuestraMision {
+    flex-wrap: wrap;
+    margin: 1rem;
+    width: 100%; }
+  .quienesSomosParrafo {
+    width: 100%; }
+  .quienesSomosImagenes {
+    width: 100%;
+    padding: 2rem; }
+  #mensaje {
+    width: 20rem;
+    height: 40rem; }
+  .section__div__form {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    padding: 2rem 0 2rem 10rem; } }
+
+@media only screen and (min-width: 993px) {
+  header {
+    border-radius: 1rem; }
+  section {
+    border-radius: 1rem; }
+  footer {
+    border-radius: 1rem; }
+  .flex-parrafo {
+    display: flex;
+    flex: row nowrap;
+    padding-top: 5rem; }
+  .flex-item-parrafo2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5rem;
+    padding-bottom: 2rem; }
+  .flex-item-parrafo {
+    width: 50%; }
+  .imgIndex {
+    width: 95%;
+    height: 95%; }
+  .nuestraFamilia {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .nuestraHistoria {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .nuestraMision {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; }
+  .container div {
+    font-size: 3rem;
+    text-align: center;
+    /* margin: 0; */
+    align-content: center;
+    align-self: center;
+    border-radius: 0.1; }
+  #mensaje {
+    width: 75%;
+    height: 60rem; }
+  .section__div__form {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    padding: 2rem 0 2rem 10rem; }
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border: #343434 solid 0.1rem; } }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.container-fluid {
+  background-image: linear-gradient(to right bottom, #625757, #6d6161, #786c6c, #837676, #8e8181, #968988, #9d9290, #a59a98, #aba29f, #b0aaa7, #b6b2af, #bcbab8); }

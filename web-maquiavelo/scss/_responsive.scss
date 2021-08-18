@@ -1,0 +1,263 @@
+  /* Estilos Mobile   */
+  
+  @media only screen and (max-width: 400px) {
+    header{
+        border-radius: none;
+    }
+    section{
+        border-radius: none;
+    }
+    footer{
+        border-radius: none;
+    }        
+    
+    .sectionIndex{
+            flex-wrap: wrap;    
+        }
+    .section div{
+            margin: 1rem;
+            width: 100%;}
+    
+        
+        footer{
+            flex-wrap: wrap;
+        }
+        .listaContacto{
+            list-style-type: none;
+            font-size: 1.5rem;
+        }
+        .listaRedes{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+            }
+    .IconosRedes{
+            width: 3.5rem;
+            height: 3.5rem;
+            }
+    .aDesk{
+        display: none;
+          }
+    .imgIndex{ 
+        width: 100%;
+        align-self: center;
+    }
+    .nuestraFamilia{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%;
+    }
+    
+    .nuestraHistoria{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%
+        
+    }
+    .nuestraMision{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%
+    }
+    .quienesSomosParrafo{
+        width: 100%
+    }
+    .quienesSomosImagenes{
+        width: 100%;
+        padding: 2rem;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    
+    }
+    .container div{
+        border-radius: none;
+    
+    }
+    .item-alfajores2{
+        height: 55rem;
+    }
+    .imagenDeCarousel{
+        height:95%;
+        border:#343434 solid 0.1rem;
+        /* border-radius: 1rem; */
+       
+    
+    }
+    .flex-item-parrafo{
+        align-items: center;
+        justify-self: center;
+        margin: 0;
+    }
+    }
+    
+     /* Estilos Tablets */
+     
+    
+      
+    @media only screen and (min-width: 401px) and (max-width:992px){
+        header{
+            border-radius: none;
+        }
+        section{
+            border-radius: none;
+        }
+        footer{
+            border-radius: none;
+        } 
+        .sectionIndex{
+            flex-wrap: wrap;    
+        }
+    
+        .section div{
+            margin: 1rem;
+            width: 100%;}
+    
+        
+        footer{
+            flex-wrap: wrap;
+        }
+        .listaContacto{
+            list-style-type: none;
+            font-size: 1.5rem;
+        }
+        .listaRedes{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+            }
+    .IconosRedes{
+            width: 3.5rem;
+            height: 3.5rem;
+            }
+    .aDesk{
+        display: none;
+          }
+    
+    .flex-item-parrafo{
+        width: 100%;
+        align-items: center;
+    }
+    .imgIndex{ 
+        width: 75%;  
+    }
+    .nuestraFamilia{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%;
+    }
+    
+    .nuestraHistoria{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%
+        
+    }
+    .nuestraMision{
+        flex-wrap: wrap;
+        margin: 1rem;
+        width: 100%
+    }
+    .quienesSomosParrafo{
+        width: 100%
+    }
+    .quienesSomosImagenes{
+        width: 100%;
+        padding: 2rem;
+    }
+    #mensaje{
+        width: 20rem;
+        height: 40rem;
+    }
+    .section__div__form{
+        width: 100%;
+        align-self: center;
+        align-items: center;
+        padding: 2rem 0 2rem 10rem;
+    }
+    }
+    @media only screen and (min-width: 993px){
+        header{
+            border-radius: 1rem;
+        }
+        section{
+            border-radius:  1rem;
+        }
+        footer{
+            border-radius:  1rem;
+        } 
+        .flex-parrafo{
+            display: flex;
+            flex: row nowrap;
+            padding-top: 5rem;
+        }
+        .flex-item-parrafo2{
+            display: flex;
+            flex-direction: row-reverse;
+            padding-top: 5rem;
+            padding-bottom: 2rem;
+        }
+        .flex-item-parrafo{
+            width: 50%;
+        }
+        .imgIndex{ 
+            width: 95%;  
+            height: 95%;
+        }
+        .nuestraFamilia{
+            padding: 1rem ;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;        
+        }
+        .nuestraHistoria{
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        .nuestraMision{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        .container div{
+    
+            font-size: 3rem;
+            text-align: center;
+            /* margin: 0; */
+            align-content: center;
+            align-self: center;
+            border-radius: 0.1;
+      
+      
+        }
+        #mensaje{
+            width: 75%;
+            height: 60rem;
+        }
+        .section__div__form{
+            width: 100%;
+            align-self: center;
+            align-items: center;
+            padding: 2rem 0 2rem 10rem;
+        }
+        .map-responsive{
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+            border: #343434 solid 0.1rem;
+        }
+}
+
+.map-responsive iframe{
+    left:0;    
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

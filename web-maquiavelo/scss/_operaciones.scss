@@ -1,0 +1,60 @@
+$fuente:6rem;
+$ancho:100%;
+
+
+.section__div{
+    font-style: italic;
+        
+    }
+.section__div_div{
+    width: $ancho/2;        
+    }    
+
+footer{       
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: $ancho; 
+
+}
+.footer__div__ul__li--contacto{
+    list-style-type: none;
+    font-size: $fuente/4;
+}
+.footer__div__ul__li--redes{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin:1rem 12rem 0.25rem;
+    justify-content: space-evenly;        
+
+}
+.section__div__form{
+    padding: 2rem 0 2rem 10rem;
+ 
+}
+.section__div__form__label{
+    font-size: $fuente/2;
+
+}
+.section__div__form__input{
+    font-size:$fuente/2;
+    background-color: #9D8F8F;
+    color: #625757;
+    font-style: oblique;
+    margin-left:10px; 
+    cursor: hand; 
+    cursor: pointer; 
+    border: 0px none;
+
+}
+#mensaje{
+    width: $ancho/3;
+}
+.h1Vende{
+    font-size: $fuente/2;
+}
+.h2Vende{
+    font-size: $fuente/3;
+}
